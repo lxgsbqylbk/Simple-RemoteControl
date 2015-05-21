@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\bin\Debug\Control_Client.exe
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\bin\Debug\Control_Client.pdb
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.Main_Form.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.teach.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.exe
+C:\Users\Administrator\Desktop\Control_Server\Control_Client\Control_Client\obj\Debug\Control_Client.pdb
