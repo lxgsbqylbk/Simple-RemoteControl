@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{320676F3-C58B-400F-B55E-4AE706BFB7B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Control_Server</AssemblyName>
+    <ApplicationIcon>1194405150240S4644.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command_Manager.Designer.cs">
+      <DependentUpon>Command_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File_Manager.Designer.cs">
+      <DependentUpon>File_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globle.cs" />
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message_Manager.Designer.cs">
+      <DependentUpon>Message_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Process_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process_Manager.Designer.cs">
+      <DependentUpon>Process_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Command_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Command_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>File_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Manager.resx">
+      <DependentUpon>Message_Manager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Process_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Register_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remote_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Remote_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service_Manager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Image_File\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_Manager.Designer.cs">
+      <DependentUpon>Register_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remote_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remote_Manager.Designer.cs">
+      <DependentUpon>Remote_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service_Manager.Designer.cs">
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Type_Client.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1194405150240S4644.ico" />
+    <Content Include="Ico_File\1194405150240S4644.ico" />
+    <Content Include="Image_File\Client.bmp" />
+    <Content Include="Image_File\Disk_Root.bmp" />
+    <Content Include="Image_File\File.bmp" />
+    <Content Include="Image_File\File_Control.bmp" />
+    <Content Include="Image_File\File_ler.bmp" />
+    <Content Include="Image_File\Folder.bmp" />
+    <Content Include="Image_File\Folder_Root.bmp" />
+    <Content Include="Image_File\Help.bmp" />
+    <Content Include="Image_File\Infomation.bmp" />
+    <Content Include="Image_File\IP.bmp" />
+    <Content Include="Image_File\KeyBoard.bmp" />
+    <Content Include="Image_File\Keys.bmp" />
+    <Content Include="Image_File\Mstsc.bmp" />
+    <Content Include="Image_File\Mstsc.png" />
+    <Content Include="Image_File\Online.bmp" />
+    <Content Include="Image_File\Option.bmp" />
+    <Content Include="Image_File\Power.bmp" />
+    <Content Include="Image_File\Process.bmp" />
+    <Content Include="Image_File\Register.bmp" />
+    <Content Include="Image_File\Reg_Root.bmp" />
+    <Content Include="Image_File\Server.bmp" />
+    <Content Include="Image_File\Service.bmp" />
+    <None Include="Image_File\Skin_1_Window.bmp" />
+    <None Include="Image_File\Skin_1_Process.bmp" />
+    <Content Include="Image_File\stickers_029.png" />
+    <Content Include="Image_File\View.bmp" />
+    <Content Include="Image_File\Window.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\stickers_005.png" />
+    <None Include="Resources\DOS.bmp" />
+    <None Include="Resources\Service_ler.bmp" />
+    <None Include="Resources\Remote_ler.bmp" />
+    <Content Include="web2logo_017.ico" />
+    <None Include="Resources\Reg_ler1.bmp" />
+    <None Include="Resources\Reg_ler.bmp" />
+    <None Include="Resources\Process_ler.bmp" />
+    <None Include="Resources\File_ler1.bmp" />
+    <None Include="Resources\File_ler.bmp" />
+    <None Include="Resources\umbrella.jpg" />
+    <None Include="Resources\rechestlogpatch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SKINPPDOTNETLib">
+      <Guid>{96953EE0-52ED-44A8-8A93-A1911BFC6455}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

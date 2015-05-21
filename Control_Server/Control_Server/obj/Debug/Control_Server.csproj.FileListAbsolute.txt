@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\bin\Debug\Control_Server.exe
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\bin\Debug\Control_Server.pdb
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Control_Server.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Control_Server.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Command_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.File_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Form1.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Main_Form.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Message_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Process_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Register_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Remote_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\主控端.Service_Manager.resources
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Control_Server.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Control_Server.exe
+C:\Users\Administrator\Desktop\Control_Server\Control_Server\Control_Server\obj\Debug\Control_Server.pdb
